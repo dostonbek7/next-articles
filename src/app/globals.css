@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .max-container{
+    @apply max-w-7xl mx-auto px-10 w-full
+  }
+  html, #root{
+    @apply h-full
+  }
+  body{
+    @apply flex flex-col h-full
+  }
+  main{
+    @apply grow
+  }
+  .link-hover{
+    @apply hover:underline hover:text-orange-400 hover:duration-150
+  }
+}
